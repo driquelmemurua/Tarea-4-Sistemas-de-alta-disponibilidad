@@ -1,6 +1,6 @@
 FROM node:10
 
-ARG PORT=3000
+ARG PORT=80
 ENV PORT $PORT
 RUN \
   apt-get update && apt-get install -y graphicsmagick &&\ 
